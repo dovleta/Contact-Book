@@ -14,66 +14,66 @@
     <li>Log Out</li>
   </ul>
 
-  <div class="search">Search tde table</div>
+  <div class="search">Search the table</div>
 
   <!-- Create your table below -->
   <table>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">NAME</th>
-      <th scope="col">EMAIL</th>
-      <th scope="col">MOBILE PHONE</th>
-      <th scope="col">ADDRESS</th>
-    </tr>
-    <tr>
-      <th scope="row">01</th>
-      <td>Bega Akm</td>
-      <td>bega@example.com</td>
-      <td>4422868845148</td>
-      <td>21 mollanepes</td>
-    </tr>
-    <tr>
-      <th scope="row">02</th>
-      <td>Ata myrat</td>
-      <td>ata@example.com</td>
-      <td>44156526851684</td>
-      <td>46 koshi</td>
-    </tr>
-    <tr>
-      <th scope="row">03</th>
-      <td>Maral</td>
-      <td>maral@example.com</td>
-      <td>4422828282255</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row">04</th>
-      <td>Gul</td>
-      <td>gul@example.com</td>
-      <td>44565595659</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row">05</th>
-      <td>Yasuly</td>
-      <td>yas@example.com</td>
-      <td>465659255484</td>
-      <td>89 koshi</td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td></td>
-      <td>ysl@example.com</td>
-      <td>4425282565582</td>
-      <td>Mir 7</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <th scope="row">Total contacts:</th>
-      <td>5</td>
-    </tr>
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">NAME</th>
+        <th scope="col">EMAIL</th>
+        <th scope="col">MOBILE PHONE</th>
+        <th scope="col">ADDRESS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">01</th>
+        <td>Bega Akm</td>
+        <td>bega@example.com</td>
+        <td>4422868845148</td>
+        <td>21 mollanepes</td>
+      </tr>
+      <tr>
+        <th scope="row">02</th>
+        <td>Ata myrat</td>
+        <td>ata@example.com</td>
+        <td>44156526851684</td>
+        <td>46 koshi</td>
+      </tr>
+      <tr>
+        <th scope="row">03</th>
+        <td>Maral</td>
+        <td>maral@example.com</td>
+        <td>4422828282255</td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr>
+        <th scope="row">04</th>
+        <td>Gul</td>
+        <td>gul@example.com</td>
+        <td>44565595659</td>
+      </tr>
+      <tr>
+        <th scope="row" rowspan="2">05</th>
+        <td rowspan="2">Yasuly</td>
+        <td>yas@example.com</td>
+        <td>465659255484</td>
+        <td>89 koshi</td>
+      </tr>
+      <tr>
+        <td>ysl@example.com</td>
+        <td>4425282565582</td>
+        <td>Mir 7</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row" colspan="4">Total contacts:</th>
+        <td>5</td>
+      </tr>
+    </tfoot>
   </table>
 
 </body>
